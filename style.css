@@ -161,6 +161,8 @@ h1 em, h2 em { color: #173f64; }
 }
 
 @media (max-width: 650px) {
+  .hero { padding-bottom: 280px; }
+
   .hero-art {
     right: 0;
     width: 480px;
