@@ -159,3 +159,15 @@ h1 em, h2 em { color: #173f64; }
   .videos-grid { grid-template-columns: 1fr; gap: 22px; }
   .video-card { max-width: 320px; margin: auto; }
 }
+
+@media (max-width: 650px) {
+  .hero-art {
+    right: 0;
+    width: 480px;
+    transform-origin: bottom right;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-art { transform: scale(.55); }
+}
