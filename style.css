@@ -161,15 +161,24 @@ h1 em, h2 em { color: #173f64; }
 }
 
 @media (max-width: 650px) {
-  .hero { padding-bottom: 280px; }
+  .hero { padding-bottom: 90px; }
 
   .hero-art {
-    right: 0;
+    position: relative;
+    right: auto;
+    bottom: auto;
     width: 480px;
-    transform-origin: bottom right;
+    height: 380px;
+    min-height: 380px;
+    margin: 22px 0 0 auto;
+    transform: scale(.7) translateY(25px);
+    transform-origin: top right;
   }
+
+  .hero-art.reveal.visible { transform: scale(.7); }
 }
 
 @media (max-width: 400px) {
-  .hero-art { transform: scale(.55); }
+  .hero-art { height: 290px; min-height: 290px; transform: scale(.55) translateY(25px); }
+  .hero-art.reveal.visible { transform: scale(.55); }
 }
