@@ -179,6 +179,7 @@ h1 em, h2 em { color: #173f64; }
 }
 
 @media (max-width: 400px) {
+  .hero h1 { font-size: clamp(2.2rem, 13vw, 3.2rem); }
   .hero-art { height: 290px; min-height: 290px; transform: scale(.55) translateY(25px); }
   .hero-art.reveal.visible { transform: scale(.55); }
 }
