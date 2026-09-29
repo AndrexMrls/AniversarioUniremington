@@ -170,7 +170,7 @@ h1 em, h2 em { color: #173f64; }
     width: 480px;
     height: 380px;
     min-height: 380px;
-    margin: 22px 0 0 auto;
+    margin: 22px 0 0 calc(100% - 480px);
     transform: scale(.7) translateY(25px);
     transform-origin: top right;
   }
