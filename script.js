@@ -103,7 +103,7 @@ function setupMobileMenu() {
 function setupPhotoLightbox() {
   if (!imageLightbox || !lightboxImage) return;
 
-  document.querySelectorAll('.event-image-link, .evidence-photo').forEach((trigger) => {
+  document.querySelectorAll('.evidence-photo').forEach((trigger) => {
     trigger.addEventListener('click', (event) => {
       event.preventDefault();
       const image = trigger.querySelector('img');
